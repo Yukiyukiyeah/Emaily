@@ -1,7 +1,7 @@
 /*
  * @Author: your name
  * @Date: 2020-12-20 16:27:49
- * @LastEditTime: 2020-12-20 21:19:11
+ * @LastEditTime: 2020-12-20 23:40:18
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: /server/services/passport.js
@@ -43,7 +43,8 @@ passport.use(
     {
     clientID: keys.githubClientID,
     clientSecret: keys.githubClientSecret,
-    callbackURL: '/auth/github/callback'
+    callbackURL: '/auth/github/callback',
+    proxy: true
     },
     (accessToken, refreshToken, profile, done) => {
       User.findOne({ githubId: profile.id })
