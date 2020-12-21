@@ -1,7 +1,7 @@
 /*
  * @Author: your name
  * @Date: 2020-12-20 16:27:49
- * @LastEditTime: 2020-12-20 23:40:18
+ * @LastEditTime: 2020-12-21 18:10:45
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: /server/services/passport.js
@@ -46,18 +46,15 @@ passport.use(
     callbackURL: '/auth/github/callback',
     proxy: true
     },
-    (accessToken, refreshToken, profile, done) => {
-      User.findOne({ githubId: profile.id })
-        .then((existingUser) => {
-          if (existingUser) {
-            // we already have a record with the given profile ID
-            done(null, existingUser);
-          } else {
-            // we don't have a user record with this ID
-            new User({ githubId: profile.id }).save()
-              .then(user => done(null, user));
-          }
-        }); // a Promise      
+    async (accessToken, refreshToken, profile, done) => {
+      const existingUser = await User.findOne({ githubId: profile.id });
+      if (existingUser) {
+        // we already have a record with the given profile ID
+        return done(null, existingUser);
+      } 
+      // we don't have a user record with this ID
+      const user = await new User({ githubId: profile.id }).save()
+      done(null, user);      
     }
   )
 );
