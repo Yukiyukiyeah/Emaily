@@ -1,7 +1,7 @@
 /*
  * @Author: your name
  * @Date: 2020-12-20 16:27:01
- * @LastEditTime: 2020-12-20 21:40:58
+ * @LastEditTime: 2020-12-21 22:36:29
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: /server/routes/authRoutes.js
@@ -28,11 +28,17 @@ module.exports = app => {
     })
   );
 
-  app.get('/auth/github/callback', passport.authenticate('github'));
+  app.get(
+    '/auth/github/callback', 
+    passport.authenticate('github'),
+    (req, res) => {
+      res.redirect('/surveys');
+    }
+  );
 
   app.get('/api/logout', (req, res) => {
     req.logout();
-    res.send(req.user);
+    res.redirect('/');
   });
 
   app.get('/api/current_user', (req, res) => {
