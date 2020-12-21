@@ -1,7 +1,7 @@
 /*
  * @Author: Yuki
  * @Date: 2020-12-18 21:16:31
- * @LastEditTime: 2020-12-22 00:32:19
+ * @LastEditTime: 2020-12-22 01:55:19
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: /server/index.js
@@ -35,6 +35,17 @@ app.use(passport.session());
 require('./routes/authRoutes')(app);
 require('./routes/billingRoutes')(app);
 
+if (process.env.NODE_ENV === 'production') {
+  // Express will serve up production assets
+  // like our main.js file, or main.css
+  app.use(express.static('client/build'));
+  // Express will serve up the index.html file
+  // if it doesn't recognize the route
+  const path = require('path');
+  app.get('*', (req, res) => {
+    res.sendFile(path.resolve(__dirname, 'client', 'build', 'index.html'))
+  });
+}
 // Dynamically tells us which port to listen to (Heroku injected to Environmental variable)
 const PORT = process.env.PORT || 5000 // environment variable
 app.listen(PORT);
