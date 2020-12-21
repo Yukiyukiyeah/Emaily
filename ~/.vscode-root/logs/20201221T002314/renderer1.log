@@ -1,0 +1,38 @@
+[2020-12-21 00:23:16.023] [renderer1] [error] Network Error: Error: Network Error
+    at e.exports (/Applications/Visual Studio Code.app/Contents/Resources/app/node_modules.asar/tas-client-umd/lib/tas-client-umd.js:1:7511)
+    at XMLHttpRequest.p.onerror (/Applications/Visual Studio Code.app/Contents/Resources/app/node_modules.asar/tas-client-umd/lib/tas-client-umd.js:1:6478)
+[2020-12-21 00:23:16.916] [renderer1] [error] net::ERR_CERT_INVALID: Error: net::ERR_CERT_INVALID
+    at SimpleURLLoaderWrapper.<anonymous> (electron/js2c/browser_init.js:105:6395)
+    at SimpleURLLoaderWrapper.emit (events.js:223:5)
+[2020-12-21 00:23:22.213] [renderer1] [error] Agent terminated with exit code: 0 and signal null: It was not possible to find any compatible framework versionThe specified framework 'Microsoft.NETCore.App', version '3.1.1' was not found.
+  - The following frameworks were found:
+      2.1.9 at [/usr/local/share/dotnet/shared/Microsoft.NETCore.App]
+      2.1.12 at [/usr/local/share/dotnet/shared/Microsoft.NETCore.App]
+      2.1.13 at [/usr/local/share/dotnet/shared/Microsoft.NETCore.App]
+      2.1.14 at [/usr/local/share/dotnet/shared/Microsoft.NETCore.App]
+      3.0.0 at [/usr/local/share/dotnet/shared/Microsoft.NETCore.App]
+      3.0.1 at [/usr/local/share/dotnet/shared/Microsoft.NETCore.App]
+
+You can resolve the problem by installing the specified framework and/or SDK.
+
+The .NET Core frameworks can be found at:
+  - https://aka.ms/dotnet-download: Error: Agent terminated with exit code: 0 and signal null: It was not possible to find any compatible framework versionThe specified framework 'Microsoft.NETCore.App', version '3.1.1' was not found.
+  - The following frameworks were found:
+      2.1.9 at [/usr/local/share/dotnet/shared/Microsoft.NETCore.App]
+      2.1.12 at [/usr/local/share/dotnet/shared/Microsoft.NETCore.App]
+      2.1.13 at [/usr/local/share/dotnet/shared/Microsoft.NETCore.App]
+      2.1.14 at [/usr/local/share/dotnet/shared/Microsoft.NETCore.App]
+      3.0.0 at [/usr/local/share/dotnet/shared/Microsoft.NETCore.App]
+      3.0.1 at [/usr/local/share/dotnet/shared/Microsoft.NETCore.App]
+
+You can resolve the problem by installing the specified framework and/or SDK.
+
+The .NET Core frameworks can be found at:
+  - https://aka.ms/dotnet-download
+    at ChildProcess.<anonymous> (/Users/yuki/.vscode/extensions/ms-vsliveshare.vsliveshare-1.0.3375/src/abstractions/node/agent.ts:290:32)
+    at ChildProcess.emit (events.js:228:7)
+    at maybeClose (internal/child_process.js:1021:16)
+    at Socket.<anonymous> (internal/child_process.js:430:11)
+    at Socket.emit (events.js:223:5)
+    at Pipe.<anonymous> (net.js:664:12)
+[2020-12-21 00:23:22.215] [renderer1] [error] ENOENT: no such file or directory, unlink '/Users/yuki/.vscode/extensions/ms-vsliveshare.vsliveshare-1.0.3375/cascade.json': Error: ENOENT: no such file or directory, unlink '/Users/yuki/.vscode/extensions/ms-vsliveshare.vsliveshare-1.0.3375/cascade.json'

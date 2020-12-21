@@ -1,0 +1,49 @@
+[2020-12-21 01:51:50.507] [exthost] [info] extension host started
+[2020-12-21 01:51:50.543] [exthost] [info] ExtensionService#_doActivateExtension vscode.microsoft-authentication {"startup":false,"extensionId":{"value":"vscode.microsoft-authentication","_lower":"vscode.microsoft-authentication"},"activationEvent":"onAuthenticationRequest:microsoft"}
+[2020-12-21 01:51:50.544] [exthost] [info] ExtensionService#loadCommonJSModule file:///Applications/Visual Studio Code.app/Contents/Resources/app/extensions/microsoft-authentication/dist/extension.js
+[2020-12-21 01:51:50.553] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch {"startup":true,"extensionId":{"value":"vscode.debug-auto-launch","_lower":"vscode.debug-auto-launch"},"activationEvent":"*"}
+[2020-12-21 01:51:50.553] [exthost] [info] ExtensionService#loadCommonJSModule file:///Applications/Visual Studio Code.app/Contents/Resources/app/extensions/debug-auto-launch/dist/extension
+[2020-12-21 01:51:50.556] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet {"startup":true,"extensionId":{"value":"vscode.emmet","_lower":"vscode.emmet"},"activationEvent":"*"}
+[2020-12-21 01:51:50.556] [exthost] [info] ExtensionService#loadCommonJSModule file:///Applications/Visual Studio Code.app/Contents/Resources/app/extensions/emmet/dist/node/emmetNodeMain
+[2020-12-21 01:51:50.570] [exthost] [info] ExtensionService#_doActivateExtension vscode.git {"startup":true,"extensionId":{"value":"vscode.github","_lower":"vscode.github"},"activationEvent":"*"}
+[2020-12-21 01:51:50.570] [exthost] [info] ExtensionService#loadCommonJSModule file:///Applications/Visual Studio Code.app/Contents/Resources/app/extensions/git/dist/main
+[2020-12-21 01:51:50.583] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict {"startup":true,"extensionId":{"value":"vscode.merge-conflict","_lower":"vscode.merge-conflict"},"activationEvent":"*"}
+[2020-12-21 01:51:50.583] [exthost] [info] ExtensionService#loadCommonJSModule file:///Applications/Visual Studio Code.app/Contents/Resources/app/extensions/merge-conflict/dist/mergeConflictMain
+[2020-12-21 01:51:50.589] [exthost] [info] ExtensionService#_doActivateExtension vscode.search-result {"startup":true,"extensionId":{"value":"vscode.search-result","_lower":"vscode.search-result"},"activationEvent":"*"}
+[2020-12-21 01:51:50.589] [exthost] [info] ExtensionService#loadCommonJSModule file:///Applications/Visual Studio Code.app/Contents/Resources/app/extensions/search-result/dist/extension.js
+[2020-12-21 01:51:50.590] [exthost] [info] ExtensionService#_doActivateExtension alefragnani.project-manager {"startup":true,"extensionId":{"value":"alefragnani.project-manager","_lower":"alefragnani.project-manager"},"activationEvent":"*"}
+[2020-12-21 01:51:50.590] [exthost] [info] ExtensionService#loadCommonJSModule file:///Users/yuki/.vscode/extensions/alefragnani.project-manager-12.0.1/dist/extension
+[2020-12-21 01:51:50.596] [exthost] [info] ExtensionService#_doActivateExtension christian-kohler.path-intellisense {"startup":true,"extensionId":{"value":"christian-kohler.path-intellisense","_lower":"christian-kohler.path-intellisense"},"activationEvent":"*"}
+[2020-12-21 01:51:50.596] [exthost] [info] ExtensionService#loadCommonJSModule file:///Users/yuki/.vscode/extensions/christian-kohler.path-intellisense-2.3.0/out/extension.js
+[2020-12-21 01:51:50.627] [exthost] [info] ExtensionService#_doActivateExtension CoenraadS.bracket-pair-colorizer {"startup":true,"extensionId":{"value":"CoenraadS.bracket-pair-colorizer","_lower":"coenraads.bracket-pair-colorizer"},"activationEvent":"*"}
+[2020-12-21 01:51:50.627] [exthost] [info] ExtensionService#loadCommonJSModule file:///Users/yuki/.vscode/extensions/coenraads.bracket-pair-colorizer-1.0.61/out/src/extension
+[2020-12-21 01:51:50.650] [exthost] [info] ExtensionService#_doActivateExtension CoenraadS.bracket-pair-colorizer-2 {"startup":true,"extensionId":{"value":"CoenraadS.bracket-pair-colorizer-2","_lower":"coenraads.bracket-pair-colorizer-2"},"activationEvent":"*"}
+[2020-12-21 01:51:50.650] [exthost] [info] ExtensionService#loadCommonJSModule file:///Users/yuki/.vscode/extensions/coenraads.bracket-pair-colorizer-2-0.2.0/out/src/extension
+[2020-12-21 01:51:50.682] [exthost] [info] ExtensionService#_doActivateExtension EditorConfig.EditorConfig {"startup":true,"extensionId":{"value":"EditorConfig.EditorConfig","_lower":"editorconfig.editorconfig"},"activationEvent":"*"}
+[2020-12-21 01:51:50.682] [exthost] [info] ExtensionService#loadCommonJSModule file:///Users/yuki/.vscode/extensions/editorconfig.editorconfig-0.16.4/out/editorConfigMain.js
+[2020-12-21 01:51:50.710] [exthost] [info] ExtensionService#_doActivateExtension fabiospampinato.vscode-todo-plus {"startup":true,"extensionId":{"value":"fabiospampinato.vscode-todo-plus","_lower":"fabiospampinato.vscode-todo-plus"},"activationEvent":"*"}
+[2020-12-21 01:51:50.710] [exthost] [info] ExtensionService#loadCommonJSModule file:///Users/yuki/.vscode/extensions/fabiospampinato.vscode-todo-plus-4.18.0/out/extension.js
+[2020-12-21 01:51:50.735] [exthost] [info] ExtensionService#_doActivateExtension formulahendry.auto-close-tag {"startup":true,"extensionId":{"value":"formulahendry.auto-close-tag","_lower":"formulahendry.auto-close-tag"},"activationEvent":"*"}
+[2020-12-21 01:51:50.735] [exthost] [info] ExtensionService#loadCommonJSModule file:///Users/yuki/.vscode/extensions/formulahendry.auto-close-tag-0.5.9/out/src/extension
+[2020-12-21 01:51:50.738] [exthost] [info] ExtensionService#_doActivateExtension formulahendry.auto-rename-tag {"startup":true,"extensionId":{"value":"formulahendry.auto-rename-tag","_lower":"formulahendry.auto-rename-tag"},"activationEvent":"*"}
+[2020-12-21 01:51:50.738] [exthost] [info] ExtensionService#loadCommonJSModule file:///Users/yuki/.vscode/extensions/formulahendry.auto-rename-tag-0.1.5/packages/extension/dist/extensionMain.js
+[2020-12-21 01:51:50.745] [exthost] [info] ExtensionService#_doActivateExtension formulahendry.terminal {"startup":true,"extensionId":{"value":"formulahendry.terminal","_lower":"formulahendry.terminal"},"activationEvent":"*"}
+[2020-12-21 01:51:50.745] [exthost] [info] ExtensionService#loadCommonJSModule file:///Users/yuki/.vscode/extensions/formulahendry.terminal-0.0.10/out/src/extension
+[2020-12-21 01:51:50.782] [exthost] [info] ExtensionService#_doActivateExtension HookyQR.beautify {"startup":true,"extensionId":{"value":"HookyQR.beautify","_lower":"hookyqr.beautify"},"activationEvent":"*"}
+[2020-12-21 01:51:50.782] [exthost] [info] ExtensionService#loadCommonJSModule file:///Users/yuki/.vscode/extensions/hookyqr.beautify-1.5.0/extension
+[2020-12-21 01:51:50.855] [exthost] [info] ExtensionService#_doActivateExtension kiteco.kite {"startup":true,"extensionId":{"value":"kiteco.kite","_lower":"kiteco.kite"},"activationEvent":"*"}
+[2020-12-21 01:51:50.856] [exthost] [info] ExtensionService#loadCommonJSModule file:///Users/yuki/.vscode/extensions/kiteco.kite-0.135.0/dist/kite-extension
+[2020-12-21 01:51:50.869] [exthost] [info] ExtensionService#_doActivateExtension ms-vsliveshare.vsliveshare {"startup":true,"extensionId":{"value":"ms-vsliveshare.vsliveshare-audio","_lower":"ms-vsliveshare.vsliveshare-audio"},"activationEvent":"*"}
+[2020-12-21 01:51:50.869] [exthost] [info] ExtensionService#loadCommonJSModule file:///Users/yuki/.vscode/extensions/ms-vsliveshare.vsliveshare-1.0.3375/out/prod/extension-prod
+[2020-12-21 01:51:51.005] [exthost] [info] ExtensionService#_doActivateExtension naumovs.color-highlight {"startup":true,"extensionId":{"value":"naumovs.color-highlight","_lower":"naumovs.color-highlight"},"activationEvent":"*"}
+[2020-12-21 01:51:51.005] [exthost] [info] ExtensionService#loadCommonJSModule file:///Users/yuki/.vscode/extensions/naumovs.color-highlight-2.3.0/dist/extension
+[2020-12-21 01:51:51.011] [exthost] [info] ExtensionService#_doActivateExtension OBKoro1.korofileheader {"startup":true,"extensionId":{"value":"OBKoro1.korofileheader","_lower":"obkoro1.korofileheader"},"activationEvent":"*"}
+[2020-12-21 01:51:51.011] [exthost] [info] ExtensionService#loadCommonJSModule file:///Users/yuki/.vscode/extensions/obkoro1.korofileheader-4.7.12/src/main.js
+[2020-12-21 01:51:51.042] [exthost] [info] ExtensionService#_doActivateExtension ritwickdey.LiveServer {"startup":true,"extensionId":{"value":"ritwickdey.LiveServer","_lower":"ritwickdey.liveserver"},"activationEvent":"*"}
+[2020-12-21 01:51:51.042] [exthost] [info] ExtensionService#loadCommonJSModule file:///Users/yuki/.vscode/extensions/ritwickdey.liveserver-5.6.1/out/src/extension
+[2020-12-21 01:51:51.651] [exthost] [info] ExtensionService#_doActivateExtension Shan.code-settings-sync {"startup":true,"extensionId":{"value":"Shan.code-settings-sync","_lower":"shan.code-settings-sync"},"activationEvent":"*"}
+[2020-12-21 01:51:51.651] [exthost] [info] ExtensionService#loadCommonJSModule file:///Users/yuki/.vscode/extensions/shan.code-settings-sync-3.4.3/out/extension.js
+[2020-12-21 01:51:51.685] [exthost] [info] ExtensionService#_doActivateExtension streetsidesoftware.code-spell-checker {"startup":true,"extensionId":{"value":"streetsidesoftware.code-spell-checker","_lower":"streetsidesoftware.code-spell-checker"},"activationEvent":"*"}
+[2020-12-21 01:51:51.685] [exthost] [info] ExtensionService#loadCommonJSModule file:///Users/yuki/.vscode/extensions/streetsidesoftware.code-spell-checker-1.10.2/dist/extension.js
+[2020-12-21 01:51:51.698] [exthost] [info] ExtensionService#_doActivateExtension zhuangtongfa.material-theme {"startup":true,"extensionId":{"value":"zhuangtongfa.material-theme","_lower":"zhuangtongfa.material-theme"},"activationEvent":"*"}
+[2020-12-21 01:51:51.698] [exthost] [info] ExtensionService#loadCommonJSModule file:///Users/yuki/.vscode/extensions/zhuangtongfa.material-theme-3.9.12/out/extension.js

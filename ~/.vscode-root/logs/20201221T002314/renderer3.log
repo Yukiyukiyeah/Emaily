@@ -1,0 +1,6 @@
+[2020-12-21 01:51:49.957] [renderer3] [error] Network Error: Error: Network Error
+    at e.exports (/Applications/Visual Studio Code.app/Contents/Resources/app/node_modules.asar/tas-client-umd/lib/tas-client-umd.js:1:7511)
+    at XMLHttpRequest.p.onerror (/Applications/Visual Studio Code.app/Contents/Resources/app/node_modules.asar/tas-client-umd/lib/tas-client-umd.js:1:6478)
+[2020-12-21 01:51:50.774] [renderer3] [error] net::ERR_CERT_INVALID: Error: net::ERR_CERT_INVALID
+    at SimpleURLLoaderWrapper.<anonymous> (electron/js2c/browser_init.js:105:6395)
+    at SimpleURLLoaderWrapper.emit (events.js:223:5)

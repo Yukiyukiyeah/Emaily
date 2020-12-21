@@ -1,0 +1,88 @@
+[2020-12-21 00:23:16.613] [exthost] [info] extension host started
+[2020-12-21 00:23:16.656] [exthost] [info] ExtensionService#_doActivateExtension vscode.microsoft-authentication {"startup":false,"extensionId":{"value":"vscode.microsoft-authentication","_lower":"vscode.microsoft-authentication"},"activationEvent":"onAuthenticationRequest:microsoft"}
+[2020-12-21 00:23:16.656] [exthost] [info] ExtensionService#loadCommonJSModule file:///Applications/Visual Studio Code.app/Contents/Resources/app/extensions/microsoft-authentication/dist/extension.js
+[2020-12-21 00:23:16.673] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch {"startup":true,"extensionId":{"value":"vscode.debug-auto-launch","_lower":"vscode.debug-auto-launch"},"activationEvent":"*"}
+[2020-12-21 00:23:16.673] [exthost] [info] ExtensionService#loadCommonJSModule file:///Applications/Visual Studio Code.app/Contents/Resources/app/extensions/debug-auto-launch/dist/extension
+[2020-12-21 00:23:16.676] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet {"startup":true,"extensionId":{"value":"vscode.emmet","_lower":"vscode.emmet"},"activationEvent":"*"}
+[2020-12-21 00:23:16.676] [exthost] [info] ExtensionService#loadCommonJSModule file:///Applications/Visual Studio Code.app/Contents/Resources/app/extensions/emmet/dist/node/emmetNodeMain
+[2020-12-21 00:23:16.701] [exthost] [info] ExtensionService#_doActivateExtension vscode.git {"startup":true,"extensionId":{"value":"vscode.github","_lower":"vscode.github"},"activationEvent":"*"}
+[2020-12-21 00:23:16.701] [exthost] [info] ExtensionService#loadCommonJSModule file:///Applications/Visual Studio Code.app/Contents/Resources/app/extensions/git/dist/main
+[2020-12-21 00:23:16.744] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict {"startup":true,"extensionId":{"value":"vscode.merge-conflict","_lower":"vscode.merge-conflict"},"activationEvent":"*"}
+[2020-12-21 00:23:16.744] [exthost] [info] ExtensionService#loadCommonJSModule file:///Applications/Visual Studio Code.app/Contents/Resources/app/extensions/merge-conflict/dist/mergeConflictMain
+[2020-12-21 00:23:16.750] [exthost] [info] ExtensionService#_doActivateExtension vscode.search-result {"startup":true,"extensionId":{"value":"vscode.search-result","_lower":"vscode.search-result"},"activationEvent":"*"}
+[2020-12-21 00:23:16.750] [exthost] [info] ExtensionService#loadCommonJSModule file:///Applications/Visual Studio Code.app/Contents/Resources/app/extensions/search-result/dist/extension.js
+[2020-12-21 00:23:16.752] [exthost] [info] ExtensionService#_doActivateExtension alefragnani.project-manager {"startup":true,"extensionId":{"value":"alefragnani.project-manager","_lower":"alefragnani.project-manager"},"activationEvent":"*"}
+[2020-12-21 00:23:16.752] [exthost] [info] ExtensionService#loadCommonJSModule file:///Users/yuki/.vscode/extensions/alefragnani.project-manager-12.0.1/dist/extension
+[2020-12-21 00:23:16.761] [exthost] [info] ExtensionService#_doActivateExtension christian-kohler.path-intellisense {"startup":true,"extensionId":{"value":"christian-kohler.path-intellisense","_lower":"christian-kohler.path-intellisense"},"activationEvent":"*"}
+[2020-12-21 00:23:16.761] [exthost] [info] ExtensionService#loadCommonJSModule file:///Users/yuki/.vscode/extensions/christian-kohler.path-intellisense-2.3.0/out/extension.js
+[2020-12-21 00:23:16.785] [exthost] [info] ExtensionService#_doActivateExtension CoenraadS.bracket-pair-colorizer {"startup":true,"extensionId":{"value":"CoenraadS.bracket-pair-colorizer","_lower":"coenraads.bracket-pair-colorizer"},"activationEvent":"*"}
+[2020-12-21 00:23:16.785] [exthost] [info] ExtensionService#loadCommonJSModule file:///Users/yuki/.vscode/extensions/coenraads.bracket-pair-colorizer-1.0.61/out/src/extension
+[2020-12-21 00:23:16.813] [exthost] [info] ExtensionService#_doActivateExtension CoenraadS.bracket-pair-colorizer-2 {"startup":true,"extensionId":{"value":"CoenraadS.bracket-pair-colorizer-2","_lower":"coenraads.bracket-pair-colorizer-2"},"activationEvent":"*"}
+[2020-12-21 00:23:16.813] [exthost] [info] ExtensionService#loadCommonJSModule file:///Users/yuki/.vscode/extensions/coenraads.bracket-pair-colorizer-2-0.2.0/out/src/extension
+[2020-12-21 00:23:16.844] [exthost] [info] ExtensionService#_doActivateExtension EditorConfig.EditorConfig {"startup":true,"extensionId":{"value":"EditorConfig.EditorConfig","_lower":"editorconfig.editorconfig"},"activationEvent":"*"}
+[2020-12-21 00:23:16.844] [exthost] [info] ExtensionService#loadCommonJSModule file:///Users/yuki/.vscode/extensions/editorconfig.editorconfig-0.16.4/out/editorConfigMain.js
+[2020-12-21 00:23:16.875] [exthost] [info] ExtensionService#_doActivateExtension fabiospampinato.vscode-todo-plus {"startup":true,"extensionId":{"value":"fabiospampinato.vscode-todo-plus","_lower":"fabiospampinato.vscode-todo-plus"},"activationEvent":"*"}
+[2020-12-21 00:23:16.875] [exthost] [info] ExtensionService#loadCommonJSModule file:///Users/yuki/.vscode/extensions/fabiospampinato.vscode-todo-plus-4.18.0/out/extension.js
+[2020-12-21 00:23:16.924] [exthost] [info] ExtensionService#_doActivateExtension formulahendry.auto-close-tag {"startup":true,"extensionId":{"value":"formulahendry.auto-close-tag","_lower":"formulahendry.auto-close-tag"},"activationEvent":"*"}
+[2020-12-21 00:23:16.924] [exthost] [info] ExtensionService#loadCommonJSModule file:///Users/yuki/.vscode/extensions/formulahendry.auto-close-tag-0.5.9/out/src/extension
+[2020-12-21 00:23:16.927] [exthost] [info] ExtensionService#_doActivateExtension formulahendry.auto-rename-tag {"startup":true,"extensionId":{"value":"formulahendry.auto-rename-tag","_lower":"formulahendry.auto-rename-tag"},"activationEvent":"*"}
+[2020-12-21 00:23:16.927] [exthost] [info] ExtensionService#loadCommonJSModule file:///Users/yuki/.vscode/extensions/formulahendry.auto-rename-tag-0.1.5/packages/extension/dist/extensionMain.js
+[2020-12-21 00:23:16.948] [exthost] [info] ExtensionService#_doActivateExtension formulahendry.terminal {"startup":true,"extensionId":{"value":"formulahendry.terminal","_lower":"formulahendry.terminal"},"activationEvent":"*"}
+[2020-12-21 00:23:16.948] [exthost] [info] ExtensionService#loadCommonJSModule file:///Users/yuki/.vscode/extensions/formulahendry.terminal-0.0.10/out/src/extension
+[2020-12-21 00:23:16.969] [exthost] [info] ExtensionService#_doActivateExtension HookyQR.beautify {"startup":true,"extensionId":{"value":"HookyQR.beautify","_lower":"hookyqr.beautify"},"activationEvent":"*"}
+[2020-12-21 00:23:16.969] [exthost] [info] ExtensionService#loadCommonJSModule file:///Users/yuki/.vscode/extensions/hookyqr.beautify-1.5.0/extension
+[2020-12-21 00:23:17.023] [exthost] [info] ExtensionService#_doActivateExtension kiteco.kite {"startup":true,"extensionId":{"value":"kiteco.kite","_lower":"kiteco.kite"},"activationEvent":"*"}
+[2020-12-21 00:23:17.023] [exthost] [info] ExtensionService#loadCommonJSModule file:///Users/yuki/.vscode/extensions/kiteco.kite-0.135.0/dist/kite-extension
+[2020-12-21 00:23:17.041] [exthost] [info] ExtensionService#_doActivateExtension ms-vsliveshare.vsliveshare {"startup":true,"extensionId":{"value":"ms-vsliveshare.vsliveshare-audio","_lower":"ms-vsliveshare.vsliveshare-audio"},"activationEvent":"*"}
+[2020-12-21 00:23:17.041] [exthost] [info] ExtensionService#loadCommonJSModule file:///Users/yuki/.vscode/extensions/ms-vsliveshare.vsliveshare-1.0.3375/out/prod/extension-prod
+[2020-12-21 00:23:17.333] [exthost] [info] ExtensionService#_doActivateExtension naumovs.color-highlight {"startup":true,"extensionId":{"value":"naumovs.color-highlight","_lower":"naumovs.color-highlight"},"activationEvent":"*"}
+[2020-12-21 00:23:17.333] [exthost] [info] ExtensionService#loadCommonJSModule file:///Users/yuki/.vscode/extensions/naumovs.color-highlight-2.3.0/dist/extension
+[2020-12-21 00:23:17.350] [exthost] [info] ExtensionService#_doActivateExtension OBKoro1.korofileheader {"startup":true,"extensionId":{"value":"OBKoro1.korofileheader","_lower":"obkoro1.korofileheader"},"activationEvent":"*"}
+[2020-12-21 00:23:17.350] [exthost] [info] ExtensionService#loadCommonJSModule file:///Users/yuki/.vscode/extensions/obkoro1.korofileheader-4.7.12/src/main.js
+[2020-12-21 00:23:17.378] [exthost] [info] ExtensionService#_doActivateExtension ritwickdey.LiveServer {"startup":true,"extensionId":{"value":"ritwickdey.LiveServer","_lower":"ritwickdey.liveserver"},"activationEvent":"*"}
+[2020-12-21 00:23:17.378] [exthost] [info] ExtensionService#loadCommonJSModule file:///Users/yuki/.vscode/extensions/ritwickdey.liveserver-5.6.1/out/src/extension
+[2020-12-21 00:23:17.919] [exthost] [info] ExtensionService#_doActivateExtension Shan.code-settings-sync {"startup":true,"extensionId":{"value":"Shan.code-settings-sync","_lower":"shan.code-settings-sync"},"activationEvent":"*"}
+[2020-12-21 00:23:17.919] [exthost] [info] ExtensionService#loadCommonJSModule file:///Users/yuki/.vscode/extensions/shan.code-settings-sync-3.4.3/out/extension.js
+[2020-12-21 00:23:18.001] [exthost] [info] ExtensionService#_doActivateExtension streetsidesoftware.code-spell-checker {"startup":true,"extensionId":{"value":"streetsidesoftware.code-spell-checker","_lower":"streetsidesoftware.code-spell-checker"},"activationEvent":"*"}
+[2020-12-21 00:23:18.001] [exthost] [info] ExtensionService#loadCommonJSModule file:///Users/yuki/.vscode/extensions/streetsidesoftware.code-spell-checker-1.10.2/dist/extension.js
+[2020-12-21 00:23:18.033] [exthost] [info] ExtensionService#_doActivateExtension zhuangtongfa.material-theme {"startup":true,"extensionId":{"value":"zhuangtongfa.material-theme","_lower":"zhuangtongfa.material-theme"},"activationEvent":"*"}
+[2020-12-21 00:23:18.033] [exthost] [info] ExtensionService#loadCommonJSModule file:///Users/yuki/.vscode/extensions/zhuangtongfa.material-theme-3.9.12/out/extension.js
+[2020-12-21 00:23:18.623] [exthost] [info] ExtensionService#_doActivateExtension ms-vscode.js-debug {"startup":false,"extensionId":{"value":"ms-vscode.js-debug","_lower":"ms-vscode.js-debug"},"activationEvent":"onCommand:extension.js-debug.clearAutoAttachVariables"}
+[2020-12-21 00:23:18.623] [exthost] [info] ExtensionService#loadCommonJSModule file:///Applications/Visual Studio Code.app/Contents/Resources/app/extensions/ms-vscode.js-debug/src/extension.js
+[2020-12-21 00:23:18.775] [exthost] [info] ExtensionService#_doActivateExtension vscode.github {"startup":false,"extensionId":{"value":"vscode.github","_lower":"vscode.github"},"activationEvent":"*"}
+[2020-12-21 00:23:18.775] [exthost] [info] ExtensionService#loadCommonJSModule file:///Applications/Visual Studio Code.app/Contents/Resources/app/extensions/github/dist/extension.js
+[2020-12-21 00:23:18.909] [exthost] [info] ExtensionService#_doActivateExtension vscode.github-authentication {"startup":false,"extensionId":{"value":"vscode.github-authentication","_lower":"vscode.github-authentication"},"activationEvent":"onAuthenticationRequest:github"}
+[2020-12-21 00:23:18.909] [exthost] [info] ExtensionService#loadCommonJSModule file:///Applications/Visual Studio Code.app/Contents/Resources/app/extensions/github-authentication/dist/extension.js
+[2020-12-21 00:23:21.208] [exthost] [error] Activating extension ms-vsliveshare.vsliveshare failed due to an error:
+[2020-12-21 00:23:21.208] [exthost] [error] Error: Agent terminated with exit code: 0 and signal null: It was not possible to find any compatible framework versionThe specified framework 'Microsoft.NETCore.App', version '3.1.1' was not found.
+  - The following frameworks were found:
+      2.1.9 at [/usr/local/share/dotnet/shared/Microsoft.NETCore.App]
+      2.1.12 at [/usr/local/share/dotnet/shared/Microsoft.NETCore.App]
+      2.1.13 at [/usr/local/share/dotnet/shared/Microsoft.NETCore.App]
+      2.1.14 at [/usr/local/share/dotnet/shared/Microsoft.NETCore.App]
+      3.0.0 at [/usr/local/share/dotnet/shared/Microsoft.NETCore.App]
+      3.0.1 at [/usr/local/share/dotnet/shared/Microsoft.NETCore.App]
+
+You can resolve the problem by installing the specified framework and/or SDK.
+
+The .NET Core frameworks can be found at:
+  - https://aka.ms/dotnet-download
+    at ChildProcess.<anonymous> (/Users/yuki/.vscode/extensions/ms-vsliveshare.vsliveshare-1.0.3375/src/abstractions/node/agent.ts:290:32)
+    at ChildProcess.emit (events.js:228:7)
+    at maybeClose (internal/child_process.js:1021:16)
+    at Socket.<anonymous> (internal/child_process.js:430:11)
+    at Socket.emit (events.js:223:5)
+    at Pipe.<anonymous> (net.js:664:12)
+[2020-12-21 00:23:21.209] [exthost] [info] eager extensions activated
+[2020-12-21 00:23:21.217] [exthost] [info] ExtensionService#_doActivateExtension dbaeumer.vscode-eslint {"startup":false,"extensionId":{"value":"dbaeumer.vscode-eslint","_lower":"dbaeumer.vscode-eslint"},"activationEvent":"onStartupFinished"}
+[2020-12-21 00:23:21.217] [exthost] [info] ExtensionService#loadCommonJSModule file:///Users/yuki/.vscode/extensions/dbaeumer.vscode-eslint-2.1.14/client/out/extension
+[2020-12-21 00:23:21.246] [exthost] [info] ExtensionService#_doActivateExtension eamodio.gitlens {"startup":false,"extensionId":{"value":"eamodio.gitlens","_lower":"eamodio.gitlens"},"activationEvent":"onStartupFinished"}
+[2020-12-21 00:23:21.246] [exthost] [info] ExtensionService#loadCommonJSModule file:///Users/yuki/.vscode/extensions/eamodio.gitlens-11.0.6/dist/gitlens
+[2020-12-21 00:23:21.333] [exthost] [info] ExtensionService#_doActivateExtension esbenp.prettier-vscode {"startup":false,"extensionId":{"value":"esbenp.prettier-vscode","_lower":"esbenp.prettier-vscode"},"activationEvent":"onStartupFinished"}
+[2020-12-21 00:23:21.333] [exthost] [info] ExtensionService#loadCommonJSModule file:///Users/yuki/.vscode/extensions/esbenp.prettier-vscode-5.8.0/dist/extension
+[2020-12-21 00:23:28.460] [exthost] [info] ExtensionService#_doActivateExtension vscode.configuration-editing {"startup":false,"extensionId":{"value":"vscode.configuration-editing","_lower":"vscode.configuration-editing"},"activationEvent":"onLanguage:jsonc"}
+[2020-12-21 00:23:28.460] [exthost] [info] ExtensionService#loadCommonJSModule file:///Applications/Visual Studio Code.app/Contents/Resources/app/extensions/configuration-editing/dist/configurationEditingMain
+[2020-12-21 00:23:28.475] [exthost] [info] ExtensionService#_doActivateExtension vscode.json-language-features {"startup":false,"extensionId":{"value":"vscode.json-language-features","_lower":"vscode.json-language-features"},"activationEvent":"onLanguage:jsonc"}
+[2020-12-21 00:23:28.475] [exthost] [info] ExtensionService#loadCommonJSModule file:///Applications/Visual Studio Code.app/Contents/Resources/app/extensions/json-language-features/client/dist/node/jsonClientMain
+[2020-12-21 00:23:28.513] [exthost] [info] ExtensionService#_doActivateExtension vscode.typescript-language-features {"startup":false,"extensionId":{"value":"vscode.typescript-language-features","_lower":"vscode.typescript-language-features"},"activationEvent":"onLanguage:jsonc"}
+[2020-12-21 00:23:28.513] [exthost] [info] ExtensionService#loadCommonJSModule file:///Applications/Visual Studio Code.app/Contents/Resources/app/extensions/typescript-language-features/dist/extension
