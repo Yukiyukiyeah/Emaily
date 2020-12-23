@@ -1,7 +1,7 @@
 /*
  * @Author: your name
  * @Date: 2020-12-21 18:36:58
- * @LastEditTime: 2020-12-21 22:39:21
+ * @LastEditTime: 2020-12-23 19:29:34
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: /server/client/components/App.js
@@ -13,8 +13,9 @@ import * as actions from '../actions';
 
 import Header from './Header';
 import Landing from './Landing';
-const SurveyNew = () => <h2>SurveyNew</h2>
-const Dashboard = () => <h2>DashBoard</h2>
+import Dashboard from './Dashboard';
+import SurveyNew from './surveys/SurveyNew'
+
 
 class App extends Component {
   componentDidMount() {
