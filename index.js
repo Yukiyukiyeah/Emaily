@@ -1,7 +1,7 @@
 /*
  * @Author: Yuki
  * @Date: 2020-12-18 21:16:31
- * @LastEditTime: 2020-12-22 01:55:19
+ * @LastEditTime: 2020-12-23 11:30:00
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: /server/index.js
@@ -15,6 +15,7 @@ const bodyParser = require('body-parser');
 const keys = require('./config/keys');
 
 require('./models/User')
+require('./models/Survey')
 require('./services/passport');
 
 mongoose.connect(keys.mongoURI);
@@ -34,6 +35,7 @@ app.use(passport.session());
 
 require('./routes/authRoutes')(app);
 require('./routes/billingRoutes')(app);
+require('./routes/surveyRoutes')(app);
 
 if (process.env.NODE_ENV === 'production') {
   // Express will serve up production assets
