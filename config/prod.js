@@ -1,13 +1,11 @@
 /*
  * @Author: your name
  * @Date: 2020-12-20 23:08:11
- * @LastEditTime: 2020-12-21 23:04:21
+ * @LastEditTime: 2020-12-25 12:24:57
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: /server/config/prod.js
  */
-
-const { stripePublishableKey } = require("./dev");
 
 // prod.js - production keys here
 module.exports = {
