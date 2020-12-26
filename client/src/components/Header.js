@@ -2,7 +2,7 @@
 /*
  * @Author: your name
  * @Date: 2020-12-21 20:46:57
- * @LastEditTime: 2020-12-22 01:28:03
+ * @LastEditTime: 2020-12-25 21:32:32
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: /server/client/src/components/Header.js
@@ -22,7 +22,7 @@ class Header extends Component {
         );
       default:
         return [
-          <li kye="1"><Payments /></li>,
+          <li key="1"><Payments /></li>,
           <li key="3" style={{ margin:'0 10px' }}>
             Credits:{this.props.auth.credits}
           </li>,
